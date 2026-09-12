@@ -1,0 +1,64 @@
+source_types:
+
+  website:
+    description: Online web resource.
+
+  book:
+    description: Published or unpublished book.
+
+  paper:
+    description: Scientific or academic paper.
+
+  thesis:
+    description: Academic thesis or dissertation.
+
+  dataset:
+    description: Structured dataset.
+
+  documentation:
+    description: Technical or software documentation.
+
+  standard:
+    description: Technical or regulatory standard.
+
+  patent:
+    description: Patent document.
+
+  legislation:
+    description: Law or legal document.
+
+  report:
+    description: Institutional or technical report.
+
+  encyclopedia:
+    description: Encyclopedia entry.
+
+  database:
+    description: Structured knowledge database.
+
+  archive:
+    description: Historical or documentary archive.
+
+  video:
+    description: Video resource.
+
+  lecture:
+    description: Lecture or educational resource.
+
+  interview:
+    description: Interview or testimony.
+
+  oral_history:
+    description: Recorded oral historical source.
+
+  observation:
+    description: Direct observation.
+
+  experiment:
+    description: Experimental result.
+
+  measurement:
+    description: Measurement or recorded observation.
+
+  personal_communication:
+    description: Information communicated directly by a person.
