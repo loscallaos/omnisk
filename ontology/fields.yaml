@@ -1,0 +1,94 @@
+fields:
+
+  - id: mathematics
+    name: Mathematics
+
+  - id: physics
+    name: Physics
+
+  - id: chemistry
+    name: Chemistry
+
+  - id: biology
+    name: Biology
+
+  - id: medicine
+    name: Medicine
+
+  - id: computer-science
+    name: Computer Science
+
+  - id: engineering
+    name: Engineering
+
+  - id: philosophy
+    name: Philosophy
+
+  - id: psychology
+    name: Psychology
+
+  - id: economics
+    name: Economics
+
+  - id: sociology
+    name: Sociology
+
+  - id: political-science
+    name: Political Science
+
+  - id: history
+    name: History
+
+  - id: geography
+    name: Geography
+
+  - id: linguistics
+    name: Linguistics
+
+  - id: law
+    name: Law
+
+  - id: education
+    name: Education
+
+  - id: arts
+    name: Arts
+
+  - id: literature
+    name: Literature
+
+  - id: music
+    name: Music
+
+  - id: architecture
+    name: Architecture
+
+  - id: agriculture
+    name: Agriculture
+
+  - id: astronomy
+    name: Astronomy
+
+  - id: earth-science
+    name: Earth Science
+
+  - id: environmental-science
+    name: Environmental Science
+
+  - id: neuroscience
+    name: Neuroscience
+
+  - id: materials-science
+    name: Materials Science
+
+  - id: statistics
+    name: Statistics
+
+  - id: logic
+    name: Logic
+
+  - id: ethics
+    name: Ethics
+
+  - id: religion
+    name: Religion
