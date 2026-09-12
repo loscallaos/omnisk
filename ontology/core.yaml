@@ -116,3 +116,20 @@ classes:
   Language:
     description: >
       A human or formal language used to communicate or represent information.
+
+temporal:
+
+    valid_from:
+      type: datetime
+
+    valid_until:
+      type: datetime
+
+    published_at:
+      type: datetime
+
+    discovered_at:
+      type: datetime
+
+    modified_at:
+      type: datetime
