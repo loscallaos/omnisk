@@ -1,0 +1,118 @@
+ontology:
+  id: human-knowledge-core
+  name: Human Knowledge Core Ontology
+  version: 0.1.0
+
+classes:
+
+  Entity:
+    description: >
+      Anything that can be uniquely identified within the knowledge graph.
+
+  Concept:
+    description: >
+      An abstract idea, notion, category, principle or intellectual construct.
+
+  Person:
+    description: >
+      A human individual.
+
+  Organization:
+    description: >
+      A formally or informally organized group of people.
+
+  Place:
+    description: >
+      A geographic or physical location.
+
+  Object:
+    description: >
+      A physical or abstract object that can be identified independently.
+
+  Event:
+    description: >
+      Something that happened or is considered to have happened.
+
+  Process:
+    description: >
+      A sequence of changes or actions.
+
+  Method:
+    description: >
+      A systematic way of performing an operation or achieving a goal.
+
+  Algorithm:
+    description: >
+      A finite, well-defined procedure for solving a problem or performing a computation.
+
+  Theory:
+    description: >
+      A structured explanatory framework supported by evidence or reasoning.
+
+  Hypothesis:
+    description: >
+      A proposed explanation or proposition that can be investigated.
+
+  Model:
+    description: >
+      A representation of a system, phenomenon or concept.
+
+  Law:
+    description: >
+      A formally stated regularity, principle or rule.
+
+  Theorem:
+    description: >
+      A proposition demonstrated through formal reasoning from accepted premises.
+
+  Equation:
+    description: >
+      A mathematical statement expressing equality between expressions.
+
+  Claim:
+    description: >
+      A proposition asserted to be true, false or uncertain.
+
+  Fact:
+    description: >
+      A claim regarded as sufficiently established within a specified context.
+
+  Observation:
+    description: >
+      Information obtained through observation or measurement.
+
+  Experiment:
+    description: >
+      A controlled procedure performed to investigate a question or hypothesis.
+
+  Evidence:
+    description: >
+      Information that supports, weakens or evaluates a claim.
+
+  Document:
+    description: >
+      A persistent information-bearing artifact.
+
+  Book:
+    description: >
+      A published or unpublished book.
+
+  Paper:
+    description: >
+      A scientific, technical or scholarly paper.
+
+  Dataset:
+    description: >
+      A structured collection of data.
+
+  Source:
+    description: >
+      An origin from which information or knowledge has been obtained.
+
+  Field:
+    description: >
+      A domain or area of knowledge.
+
+  Language:
+    description: >
+      A human or formal language used to communicate or represent information.
