@@ -1,0 +1,138 @@
+relations:
+
+  related_to:
+    description: >
+      General semantic relationship between two entities.
+
+  is_a:
+    description: >
+      Indicates that one entity is a type or instance of another.
+
+  part_of:
+    description: >
+      Indicates that one entity forms part of another.
+
+  contains:
+    inverse: part_of
+
+  depends_on:
+    description: >
+      Indicates that one entity requires another concept, entity or condition.
+
+  prerequisite_for:
+    inverse: depends_on
+
+  causes:
+    description: >
+      Indicates a causal relationship.
+
+  caused_by:
+    inverse: causes
+
+  influences:
+    description: >
+      Indicates that one entity influences another without necessarily causing it.
+
+  derived_from:
+    description: >
+      Indicates that an entity originates from another.
+
+  based_on:
+    description: >
+      Indicates that a work, model, theory or method is based on another entity.
+
+  supports:
+    description: >
+      Indicates that evidence or a source supports a claim.
+
+  supported_by:
+    inverse: supports
+
+  contradicts:
+    description: >
+      Indicates that one claim, theory or proposition contradicts another.
+
+  contradicted_by:
+    inverse: contradicts
+
+  refines:
+    description: >
+      Indicates that an entity provides a more precise formulation of another.
+
+  generalizes:
+    description: >
+      Indicates that an entity generalizes another.
+
+  specializes:
+    description: >
+      Indicates that an entity is a more specific form of another.
+
+  implements:
+    description: >
+      Indicates that a concrete implementation realizes a method, algorithm or specification.
+
+  implemented_by:
+    inverse: implements
+
+  used_by:
+    description: >
+      Indicates that an entity is used by another.
+
+  uses:
+    inverse: used_by
+
+  developed_by:
+    description: >
+      Indicates who or what developed an entity.
+
+  authored_by:
+    description: >
+      Indicates the author of a document or work.
+
+  published_by:
+    description: >
+      Indicates the organization responsible for publishing something.
+
+  published_in:
+    description: >
+      Indicates the publication in which something appeared.
+
+  cites:
+    description: >
+      Indicates that a document references another document.
+
+  cited_by:
+    inverse: cites
+
+  occurs_in:
+    description: >
+      Indicates where an event or process occurs.
+
+  occurs_at:
+    description: >
+      Indicates when an event or process occurs.
+
+  precedes:
+    description: >
+      Indicates temporal precedence.
+
+  follows:
+    inverse: precedes
+
+  has_part:
+    inverse: part_of
+
+  has_source:
+    description: >
+      Associates an entity or claim with its information source.
+
+  has_evidence:
+    description: >
+      Associates a claim with evidence.
+
+  has_application:
+    description: >
+      Indicates a practical or theoretical application.
+
+  applied_to:
+    inverse: has_application
